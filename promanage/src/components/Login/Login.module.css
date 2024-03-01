@@ -1,0 +1,174 @@
+
+.container{
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+}
+.leftside{
+    height: 100vh;
+    width: 60vw;
+    background-color: #17a2b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgcontainer{
+    position: relative;
+    height: 35rem;
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+}
+.circle{
+    position: absolute;
+    height: 25rem;
+    width: 25rem;
+    background-color: #317f8b;
+    border-radius: 50%;
+    margin-top: 3vw;
+}
+.art{
+    position: absolute;
+    height: 40rem;
+    width: 40rem;
+    z-index: 10;
+}
+.message{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.message h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.message h4{
+    font-weight: 600;
+
+}
+.inputcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputcontainer h2{
+    font-size: 3rem;
+    padding-bottom: 5rem;
+    font-weight: 600;
+}
+form{
+    width: 60%;
+}
+.rightside{     
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.inputform h3{
+    font-size: 2rem;
+    padding-bottom: 6rem;
+    font-weight: 600;
+}
+.allinputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    /* border: 2px solid black; */
+}
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    height: 5rem;
+}
+label{
+    cursor: default;
+}
+.iconcontainer{
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+}
+.inputbox input{
+    width: 80%;
+    height: 2.7rem;
+    padding-left: 4rem;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1.3px solid #d0d0d0;
+    outline: none;
+}
+.errormessage{
+    color: red;
+    font-family: var(--font-inter);
+    position: absolute;
+    bottom: 4px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.iconright{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+}
+.bottonelements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.button{
+    width: 100%;
+    height: 3rem;
+    border-radius: 50px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(23, 162, 184);
+    border: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.question{
+    color: #828282;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 6rem;
+    padding-top: 1rem;
+}
+.buttonlogin{
+    color: rgb(23, 162, 184); 
+    background-color: rgb(255, 255, 255); 
+    border: 1.4px solid rgb(23, 162, 184);
+    width: 100%;
+    height: 3rem;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
